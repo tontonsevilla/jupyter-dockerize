@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  wlvs-jupyter:
+    image: wlvs-jupyter
+    volumes:
+      - .:/app
+    ports:
+      - "8888:8888"
